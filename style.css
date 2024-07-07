@@ -12,7 +12,6 @@ body {
 /* header section start  */
 
 .banner-container {
-  border: 2px solid blue;
   width: 1320px;
   min-height: 600px;
   margin: 20px auto;
@@ -57,7 +56,7 @@ p {
   flex-direction: column;
   width: 800px;
   height: 800px;
-  border: 2px solid red;
+
   margin: 0 auto;
   margin-top: 100px;
   margin-bottom: 50px;
@@ -69,28 +68,24 @@ p {
   text-align: center;
   gap: 20px;
   height: 300px;
-  border: 2px solid green;
 }
 .discount-img img {
   width: 800px;
   height: 500px;
 }
 .discount-content h1 {
-  color: rgb(255, 0, 0);
   font-family: Inter;
   font-size: 88px;
   font-weight: 700;
   line-height: 107px;
   letter-spacing: 0%;
   text-align: center;
+  color: #ff0000;
 }
 .discount-content p {
-  color: rgb(255, 0, 0);
-  font-family: Inter;
+  color: #ff0000;
   font-size: 24px;
   font-weight: 500;
-  line-height: 29px;
-  letter-spacing: 0%;
   text-align: center;
 }
 .discount-content h2 {
@@ -108,7 +103,6 @@ p {
 .hero-container {
   height: 600px;
   display: flex;
-  border: 2px solid teal;
   background-color: rgba(0, 0, 0, 0.3);
   background-image: url(images/Vectorrr.png);
   background-repeat: no-repeat;
@@ -151,7 +145,7 @@ p {
 /* time container start */
 .time-container {
   height: 485px;
-  border: 2px solid red;
+
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -164,6 +158,7 @@ p {
     rgba(255, 0, 0, 0) 100%
   );
   margin-top: 70px;
+  margin-bottom: 70px;
 }
 .time-text {
   display: flex;
@@ -198,4 +193,146 @@ p {
   padding: 16px 32px 16px 32px;
   font-size: 22px;
   cursor: pointer;
+}
+
+/* picture container section */
+
+.picture-container {
+  height: 463px;
+  border: 2px solid darkblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+  gap: 60px;
+}
+.picture-container-content {
+  border: 2px solid darkslateblue;
+  width: 393px;
+  height: 255px;
+}
+.picture-container-content h3 {
+  color: #ff0000;
+  font-size: 24px;
+  font-weight: 500;
+}
+.picture-container-content h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #070211;
+}
+.picture-container-content p {
+  font-size: 22px;
+  font-weight: 400;
+  color: rgba(7, 2, 17, 0.6);
+  /* padding-right: 50px; */
+}
+.picture-container-img {
+  border: 15px solid rgb(255, 0, 0);
+  border-radius: 50%;
+  width: 464px;
+  width: 464px;
+}
+.picture-container-img img {
+  width: 364px;
+  width: 364px;
+  border-radius: 100px;
+}
+.picture-container-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border: 2px solid darkslateblue;
+}
+.text2024 {
+  width: 276px;
+  height: 170px;
+}
+.text2024 h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: rgb(255, 0, 0);
+}
+.text2024 p {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(7, 2, 17, 0.6);
+}
+.new-year {
+}
+.new-year img {
+  width: 140px;
+  height: 140px;
+}
+
+/* holiday stats */
+
+.sale-container {
+  width: 1070px;
+  height: 260px;
+  border: 2px solid red;
+  margin: 0 auto;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.sale-container h4 {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(7, 2, 17);
+}
+.sale-container h1 {
+  font-size: 72px;
+  font-weight: 900;
+  color: rgb(7, 2, 17);
+}
+#holidays {
+  color: rgb(255, 0, 0);
+}
+.sale-container p {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(7, 2, 17);
+}
+/* gift section */
+
+.gift-box {
+  height: 664px;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 200px;
+  background-image: url(images/Rectangle\ 2.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-top: 20px;
+}
+.gift-content {
+  display: flex;
+  width: 60%;
+}
+.gift-img {
+  height: 577px;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: overlay;
+}
+.gift-img img {
+  /* height: 577px; */
+  border: #ff0000;
+}
+.gift-50 {
+  width: 305px;
+  height: 305px;
+  border: 3px solid saddlebrown;
+  margin-top: 77px;
+  margin-left: 170px;
+}
+
+.item{
+    width: 424px;
+    height: 450px;
 }
