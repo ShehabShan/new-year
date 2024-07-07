@@ -305,7 +305,7 @@ p {
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   background-image: url(images/Rectangle\ 2.png);
   background-repeat: no-repeat;
   background-position: bottom;
@@ -332,7 +332,119 @@ p {
   margin-left: 170px;
 }
 
-.item{
-    width: 424px;
-    height: 450px;
+/* bag section */
+
+.bag-container {
+  margin-bottom: 110px;
+}
+
+.bag-container .best {
+  color: rgb(255, 0, 0);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: left;
+  margin-bottom: 17px;
+}
+.bag-container h2 {
+  color: rgb(7, 2, 17);
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  margin-bottom: 17px;
+}
+.bag-container p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 32px;
+}
+
+.item {
+  width: 424px;
+  height: 450px;
+}
+/* Newsletter section starts*/
+
+.newsletter-container {
+  height: 616px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
+.newsletter-content {
+  width: 900px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid red;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+.newsletter-content img {
+  width: 150px;
+  height: 150px;
+}
+.newsletter-content h1 {
+  color: rgb(7, 2, 17);
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  text-transform: capitalize;
+}
+.newsletter-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.newsletter-btn {
+  width: 660px;
+  height: 74px;
+  display: flex;
+  border: 1px solid #ff0000;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.newsletter-btn input {
+  width: 65%;
+  height: 100%;
+  border-radius: 50px 0 0 50px;
+  color: rgba(7, 2, 17, 0.3);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.newsletter-btn button {
+  width: 35%;
+  height: 100%;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  border-radius: 0px 50px 50px 0px;
+  background: rgb(255, 0, 0);
 }
